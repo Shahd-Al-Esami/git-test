@@ -9,4 +9,12 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+    ghj
+=======
+    public function x(){
+       echo "sara";
+    }
+    public function main(){
+        echo "main";
+     }
 }
